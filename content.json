@@ -1,0 +1,252 @@
+{
+  "profile": {
+    "name": "Aleesha Bhatti",
+    "pageTitle": "Aleesha Bhatti | Mechanical Engineering Portfolio",
+    "tagline": "Mechanical Engineering & Hardware Design",
+    "badge": "Mechanical Engineering & Biomedical Engineering Minor | Columbia University",
+    "badgeIcon": "fa-solid fa-graduation-cap",
+    "headshot": "assets/headshot.jpeg",
+    "intro": [
+      "I'm a Mechanical Engineering undergrad with a Biomedical Engineering minor at Columbia University who loves building hardware from scratch—from CAD models and rocket launches to embedded C++ microcontrollers and medical device prototypes.",
+      "When I'm not in the machine shop or troubleshooting circuits, I'm super passionate about social equity and civic advocacy! Outside of engineering, you can find me exploring cute cafes in search of the best matcha, weightlifting, going on long walks, and taking way too many photos (I am constantly out of phone storage) 📸✨."
+    ],
+    "footer": "© Aleesha Bhatti. Columbia University Mechanical Engineering."
+  },
+
+  "contact": {
+    "heading": "Get In Touch",
+    "subtitle": "Feel free to reach out for engineering opportunities, collaboration, or matcha!",
+    "email": "aleesharbhatti@gmail.com",
+    "phone": "(678) 768-5623",
+    "linkedin": "https://linkedin.com/in/aleesha-bhatti"
+  },
+
+  "nav": [
+    { "label": "About", "href": "#about" },
+    { "label": "Experience", "href": "#experience" },
+    { "label": "Projects", "href": "#projects" },
+    { "label": "Publications", "href": "#publications" },
+    { "label": "Coursework", "href": "#coursework" },
+    { "label": "LinkedIn", "icon": "fa-brands fa-linkedin", "action": "linkedin" },
+    { "label": "Contact", "action": "contact", "style": "contact" }
+  ],
+
+  "heroButtons": [
+    { "label": "View Projects", "icon": "fa-solid fa-terminal", "href": "#projects", "style": "primary" },
+    { "label": "Get In Touch", "icon": "fa-solid fa-envelope", "action": "contact", "style": "secondary" },
+    { "label": "LinkedIn", "icon": "fa-brands fa-linkedin", "action": "linkedin", "style": "secondary" }
+  ],
+
+  "sections": {
+    "experience": { "title": "Experience & Work History", "icon": "fa-solid fa-briefcase" },
+    "projects": { "title": "Hardware & Prototyping Projects", "icon": "fa-solid fa-code-branch" },
+    "publications": { "title": "Publications", "icon": "fa-solid fa-book-open" },
+    "coursework": { "title": "Academic Coursework", "icon": "fa-solid fa-graduation-cap" }
+  },
+
+  "stats": [
+    { "value": "8+", "label": "Engineering Projects", "highlight": true },
+    { "value": "GD&T", "label": "Tolerance Verified", "highlight": false },
+    { "value": "150", "label": "DAQ Research Participants", "highlight": false },
+    { "value": "Gates Scholar", "label": "Top 1% Nationwide", "highlight": true }
+  ],
+
+  "experience": [
+    {
+      "role": "Research Intern — Neural Signal Acquisition Lab",
+      "organization": "Georgia Institute of Technology",
+      "dates": "May 2025 – Present",
+      "image": "",
+      "bullets": [
+        "Installed, calibrated, and operated data acquisition (DAQ) hardware across a 150-participant study, validating sensor-level signal quality prior to data release.",
+        "Developed Python and MATLAB processing pipelines to filter, segment, and extract features from test data, reducing turnaround time on diagnosing bad runs.",
+        "Authored test documentation and standardized the team's data-collection procedure, improving repeatability and co-authoring a methods manuscript."
+      ]
+    },
+    {
+      "role": "Rocketry Sub-Team Engineer",
+      "organization": "Columbia Space Initiative",
+      "dates": "Sep 2025 – Present",
+      "image": "",
+      "bullets": [
+        "CADed the nose cone and fin assembly end-to-end in SolidWorks for team launch vehicles.",
+        "Collaborated in the machine shop to fabricate, integrate, and test parts directly on the rocket airframe."
+      ]
+    },
+    {
+      "role": "Investment Research Intern",
+      "organization": "Sloan Ventures (formerly Hunniwell Lake Ventures)",
+      "dates": "May 2026 – Sep 2026",
+      "image": "",
+      "bullets": [
+        "Conducted hardware technical diligence on 20 early-stage hardware companies, evaluating design maturity and production readiness.",
+        "Narrowed the startup evaluation field down to 6 finalists presented directly to internal stakeholders."
+      ]
+    },
+    {
+      "role": "Engineering Intern",
+      "organization": "BotBlox Inc.",
+      "dates": "Oct 2025 – Dec 2025",
+      "image": "",
+      "bullets": [
+        "Soldered electrical assemblies, resolved wiring and mechanical interference issues, and performed precision inspections to verify components met drawing tolerances.",
+        "Conducted root cause analysis on recurring assembly and design defects, implementing engineering changes that improved build reliability and reduced assembly time.",
+        "Created and revised SolidWorks and AutoCAD models and production drawings to support design changes and component fit during production ramp-up."
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "title": "Rocket Design & Launch Fabrication",
+      "summary": "Engineered nose cone and fin geometries in SolidWorks, combining laser-cut structural bulkheads and 3D-printed fairings for launch stability.",
+      "tags": ["SolidWorks", "3D Printing", "Laser Cutting"],
+      "image": "",
+      "subtitle": "SolidWorks | 3D Printing | Laser Cutting | Aerodynamics & Flight Stability",
+      "overview": "This project involved designing, modeling, and fabricating a functional multi-stage high-stability rocket built from the ground up to achieve maximum flight altitude and controlled descent recovery.",
+      "highlights": [
+        { "title": "Aerodynamic Surface Modeling", "text": "Generated von Kármán nose cone profiles and swept fin geometries in SolidWorks to minimize atmospheric drag and keep the Center of Pressure (CP) strictly behind the Center of Gravity (CG) during flight." },
+        { "title": "CAD & Tolerance Design", "text": "Designed inter-stage coupler rings, payload bays, and motor retainer clips in CAD with tight fit tolerances to account for material thermal expansion during launch ignition." },
+        { "title": "Additive & Subtractive Fabrication", "text": "Precision laser-cut interior mounting bulkheads and 3D-printed lightweight PETG nose sections to handle high kinetic impact upon landing." },
+        { "title": "Hardware Integration & Flight Tests", "text": "Hand-assembled launch rail buttons, shock cords, and recovery deployment systems, running ground ejection tests to ensure reliable parachute deployment." }
+      ]
+    },
+    {
+      "title": "Deviated Septum Correction Device",
+      "summary": "Designed a nitinol shape-memory frame encapsulated in silicone, evaluating structural recovery and biomechanical contact pressure.",
+      "tags": ["Nitinol SMA", "Biomedical", "SolidWorks"],
+      "image": "",
+      "subtitle": "Nitinol Shape-Memory Alloy | Silicone Molding | Biocompatible Prototyping",
+      "overview": "Designed a non-surgical proof-of-concept medical device for deviated nasal septum correction utilizing thermally activated shape-memory alloys embedded within soft elastomeric casings.",
+      "highlights": [
+        { "title": "Shape-Memory Alloy Integration", "text": "Configured heat-treated Nitinol wire structures programmed to activate at human body temperature, providing controlled and continuous outward spring tension against nasal cartilage." },
+        { "title": "3D Mold Design & Silicone Casting", "text": "Modeled custom negative molds in SolidWorks and poured dual-component biocompatible silicone to fully encapsulate the metal frame and prevent soft tissue abrasion." },
+        { "title": "Mechanical Force Testing", "text": "Evaluated physical revisions under compression setups, verifying that outward mechanical forces stayed within safe biomechanical parameters for patient comfort." },
+        { "title": "Hardware Iteration", "text": "Refined mold tolerances and wire gauge configurations across multiple test prints to maximize structural memory recovery and ergonomic fit." }
+      ]
+    },
+    {
+      "title": "Truss Bridge Design & Structural FEA",
+      "summary": "Designed and load-tested an optimized member geometry truss bridge, validating FEA stress points against destructive failure modes.",
+      "tags": ["Structural CAD", "FEA Analysis", "Load Testing"],
+      "image": "",
+      "subtitle": "Structural Mechanics | Finite Element Analysis | Destructive Testing",
+      "overview": "Executed full structural design, FEA stress modeling, and physical destructive load testing for a high-efficiency truss bridge optimized for load-to-weight performance.",
+      "highlights": [
+        { "title": "Hand Calculations & Joint Analysis", "text": "Analyzed member tension and compression forces using the method of joints and sections to determine ideal truss geometry and strut dimensions." },
+        { "title": "SolidWorks Simulation (FEA)", "text": "Conducted static linear stress analyses and buckling simulations in SolidWorks FEA to locate peak stress concentrations and eliminate unnecessary material weight." },
+        { "title": "Precision Construction", "text": "Machined structural members and assembled joints with rigid gusset plates to ensure accurate transfer of vertical static forces straight to support abutments." },
+        { "title": "Empirical Destructive Testing", "text": "Loaded the physical bridge to failure on a hydraulic load frame, correlating physical fracture points directly against FEA predictions to validate calculations." }
+      ]
+    },
+    {
+      "title": "Automated Cardiovascular Heart Stent",
+      "summary": "Modeled an expandable mesh stent structure in SolidWorks, using finite element analysis to ensure fatigue resistance and smooth vascular flow.",
+      "tags": ["Cardiovascular", "FEA Modeling", "Medical Devices"],
+      "image": "",
+      "subtitle": "Cardiovascular Engineering | Cyclic Fatigue FEA | Medical Device Design",
+      "overview": "Engineered an expandable mesh cardiovascular stent system engineered to alleviate arterial stenosis and hypertension while maintaining high radial strength and long-term fatigue resistance.",
+      "highlights": [
+        { "title": "Parametric Strut CAD Geometry", "text": "Modeled repeating balloon-expandable mesh struts in SolidWorks, balancing outer radial expansion ratio with minimal axial foreshortening." },
+        { "title": "Non-Linear FEA Fatigue Analysis", "text": "Performed non-linear material stress simulations to evaluate plastic deformation during deployment and verify structural fatigue limits under cyclic hemodynamic pressure." },
+        { "title": "Fluid Dynamics & Hemodynamics", "text": "Optimized inner surface profiles to reduce fluid recirculation and wall shear stress, helping minimize blood turbulence and thrombosis risks." },
+        { "title": "Medical Design Compliance", "text": "Applied medical device design rules to maintain continuous outer wall contact without inducing arterial wall puncture or excessive inflammation." }
+      ]
+    },
+    {
+      "title": "CO₂ Pressurized Wooden Dragster",
+      "summary": "Precision-machined a low-drag wooden chassis with custom axle channels and brass bushings for high-acceleration CO₂ track runs.",
+      "tags": ["Aerodynamics", "Wood Machining", "Mass Reduction"],
+      "image": "",
+      "subtitle": "Aerodynamic Mass Reduction | Precision Machining | Track Testing",
+      "overview": "Designed, machined, and aerodynamically refined a low-mass wooden dragster engineered to achieve peak acceleration on a guided track using pressurized CO₂ cartridge thrust.",
+      "highlights": [
+        { "title": "Chassis Shaping & Drag Reduction", "text": "Shaped a balsa wood chassis to minimize frontal cross-sectional area and reduce turbulent air drag along the rear pressure chamber." },
+        { "title": "Precision Machining & Lathe Work", "text": "Machined custom brass bushings and turned lightweight aluminum axles on a lathe to guarantee low friction and straight-line tracking." },
+        { "title": "Weight Distribution & Center of Mass", "text": "Drilled internal weight-reduction pockets around non-structural areas, balancing chassis mass directly over the rear wheels to maximize initial traction." },
+        { "title": "High-Speed Track Trials", "text": "Measured race performance using optical timer sensors, adjusting wheel alignment tolerances to eliminate wobble and drag during top-speed runs." }
+      ]
+    },
+    {
+      "title": "Thermodynamic Phase-Change Surface Model",
+      "summary": "Constructed a 3D thermodynamic state surface of water in CAD and 3D printed the physical model to illustrate liquid-solid-vapor boundaries.",
+      "tags": ["3D Printing", "Thermodynamics", "CAD Surface Modeling"],
+      "image": "",
+      "subtitle": "Thermodynamics | CAD Surface Modeling | 3D Printing & Slicing",
+      "overview": "Constructed a physical, 3D mathematical representation of water's thermodynamic state surface (P-V-T) to visually and tactitly demonstrate phase boundaries across solid, liquid, and vapor regions.",
+      "highlights": [
+        { "title": "Mathematical Surface Extraction", "text": "Converted thermodynamic state equations and empirical phase diagram data points into a continuous 3D surface mesh inside CAD." },
+        { "title": "Phase Boundary Feature Mapping", "text": "Extruded physical ridges along the sublimation, melting, and vaporization lines, highlighting the triple point and critical point for clear visual analysis." },
+        { "title": "Additive Manufacturing & Slicing", "text": "Optimized print orientation, layer heights, and support structures in Ultimaker Cura to ensure smooth surface slopes without steep overhang defects." },
+        { "title": "Technical Report & Presentation", "text": "Authored an accompanying technical thermodynamics report detailing state function derivations and phase transition properties mapped on the model." }
+      ]
+    },
+    {
+      "title": "Dual-Game Arduino Handheld Console",
+      "summary": "Hand-soldered an ATmega microcontroller system running custom C++ games inside a custom laser-cut acrylic and wooden enclosure.",
+      "tags": ["Arduino (C++)", "Laser Cutting", "Wire Harnessing"],
+      "image": "",
+      "subtitle": "Arduino (C++) | Hardware Wiring | Circuit Soldering | Laser Cutting",
+      "overview": "Designed and built an integrated handheld arcade console powered by an ATmega microcontroller, featuring custom game code written in C++ and a hand-soldered hardware platform.",
+      "highlights": [
+        { "title": "Embedded C++ Software Logic", "text": "Programmed real-time rendering, collision detection algorithms, score state tracking, and button debouncing routines for two playable arcade games." },
+        { "title": "Circuit Soldering & Hardware Wiring", "text": "Wired OLED displays, tactile pushbuttons, piezo speakers, and power management circuits cleanly onto breadboard prototyping shields." },
+        { "title": "Ergonomic Enclosure Design", "text": "Modeled a multi-layered snap-fit acrylic and wooden casing with laser-cut button cutouts, mounting points, and battery access slots." },
+        { "title": "Debugging & Power Optimization", "text": "Diagnostic tested signal connections with a multimeter to resolve voltage drop issues and optimize battery efficiency during extended play." }
+      ]
+    },
+    {
+      "title": "Automated Temperature Sensor & Audio System",
+      "summary": "Built a thermistor-based environmental monitor featuring a drill-pressed and 3D-printed housing with automated acoustic and visual alerts.",
+      "tags": ["Soldering", "3D Printing", "Embedded Logic"],
+      "image": "",
+      "subtitle": "Analog Sensing | Drill Press Operations | Embedded Logic | 3D Printing",
+      "overview": "Engineered an automated environmental monitoring device that processes real-time ambient temperature data to trigger dynamic audio-visual alerts upon crossing safety thresholds.",
+      "highlights": [
+        { "title": "Analog Signal Conditioning", "text": "Integrated NTC thermistor sensor circuits with voltage divider networks and calibrated mathematical lookup tables for precise temperature reading." },
+        { "title": "Acoustic & Visual Feedback Circuits", "text": "Hand-soldered RGB LED indicator rings and piezo buzzers, coding custom tone frequencies and color changes corresponding to thermal zones." },
+        { "title": "Machine Shop Enclosure Fabrication", "text": "Designed and 3D-printed a robust chassis, utilizing a drill press to precision-bore mounting holes for switches, power jacks, and sensor probes." },
+        { "title": "Embedded Threshold Logic", "text": "Wrote C++ conditional logic on a microcontroller to automatically trigger thermal warnings and eliminate false positive readings from electrical noise." }
+      ]
+    }
+  ],
+
+  "publications": [
+    {
+      "title": "Critical Stages of Language Development Through External and Cognitive Factors",
+      "venue": "International Journal of High School Research",
+      "year": "2024",
+      "image": "",
+      "details": [
+        { "label": "Author", "text": "Bhatti, A. R." },
+        { "label": "Citation", "text": "International Journal of High School Research, 6(7), 1." }
+      ]
+    }
+  ],
+
+  "coursework": [
+    {
+      "title": "Current Relevant Coursework",
+      "icon": "fa-solid fa-clock-rotate-left",
+      "courses": [
+        { "code": "BMENE 3010", "name": "Biomedical Engineering I" },
+        { "code": "MECEE 1008", "name": "Intro to Machining" },
+        { "code": "MECEE 3018", "name": "Mechanical Engineering Lab I" },
+        { "code": "MECEE 3100", "name": "Intro to Mechanics of Fluids" },
+        { "code": "MECEE 3408", "name": "Computer Graphics & Design" },
+        { "code": "MECEE 3414", "name": "Mechanics of Solids for Mechanical Engineering" }
+      ]
+    },
+    {
+      "title": "Past Relevant Coursework",
+      "icon": "fa-solid fa-circle-check",
+      "courses": [
+        { "code": "ENGI E1102", "name": "The Art of Engineering" },
+        { "code": "ENGI E1006", "name": "Introduction to Computing for Engineers & Applied Scientists" },
+        { "code": "ELEN E1201", "name": "Introduction to Electrical Engineering" },
+        { "code": "MECE E3105", "name": "Engineering Mechanics" },
+        { "code": "MECE E3301", "name": "Thermodynamics" }
+      ]
+    }
+  ]
+}
